@@ -3,6 +3,7 @@ package com.asmanmirza.adsmodule
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.asmanmirza.adsmodule.R
 import com.asmanmirza.easyads.admob.interstitial.AdmobInterstitialAdHelper.loadAdmobInterstitialAd
 import com.asmanmirza.easyads.admob.interstitial.AdmobInterstitialAdHelper.showAdmobInterstitialAd
 import com.asmanmirza.easyads.admob.interstitial.AdmobInterstitialAdListener

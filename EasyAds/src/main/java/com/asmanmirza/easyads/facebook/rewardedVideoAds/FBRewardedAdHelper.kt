@@ -51,7 +51,10 @@ object FBRewardedAdHelper {
 
                 }
             }
-            rewardedVideoAd?.loadAd(rewardedVideoAd!!.buildLoadAdConfig().withAdListener(rewardedVideoAdListener).build())
+            rewardedVideoAd?.loadAd(
+                rewardedVideoAd!!.buildLoadAdConfig().withAdListener(
+                    rewardedVideoAdListener
+                ).build())
         } else {
             throw Exception("Looks like, AdsManager is not initialized yet. Please call 'initFBAds()' in your Application class to initialize it.")
         }
